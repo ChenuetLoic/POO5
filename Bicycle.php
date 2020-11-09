@@ -15,7 +15,7 @@ class Bicycle extends Vehicle implements LightableInterface
 
     public function switchOff()
     {
-        return true;
+        return false;
     }
 
 }
